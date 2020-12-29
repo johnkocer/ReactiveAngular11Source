@@ -1,0 +1,30 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h2>Employee Angular Sample</h2>
+  <nav >
+    <a [routerLink]="['/home']">
+      <span class='glyphicon glyphicon-home'></span> Home
+   </a> |
+    <a [routerLink]="['/employee']" routerLinkActive="active">
+       <span class='glyphicon glyphicon-home'></span> Employee
+    </a> |
+    <a [routerLink]="['/counter']" routerLinkActive="active">
+       <span class='glyphicon glyphicon-home'></span> Counter
+    </a> |
+    <a [routerLink]="['/fetch-data']" routerLinkActive="active">
+      <span class='glyphicon glyphicon-home'></span> Fetch Data
+   </a>
+  </nav>
+ <hr>
+<router-outlet></router-outlet>
+<hr>
+  <h6 class="line text-decoration-undeline " style="text-align:center">
+    Copyright © 2021 -
+    <a href="https://t.co/hnIdiJyf6m?amp=1" target="_blank"
+      >[ Books by John Kocer @amazon.com]
+    </a>
+    <br />
+    <a href="https://johnkocer.github.io/" target="_blank"
+      >https://johnkocer.github.io/</a
+    >
+  </h6>

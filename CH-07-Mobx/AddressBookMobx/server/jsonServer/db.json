@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contacts": [
+    {
+      "firstName": "John",
+      "lastName": "Kocer",
+      "addressLineOne": "One Way Drive",
+      "city": "LA",
+      "country": "United States",
+      "postalCode": "85225",
+      "email": "smartit.consultationg@gmail.com",
+      "phone": "4805443497",
+      "age": "31",
+      "addressLineTwo": "df dfgfd fgbfd",
+      "id": 1
+    },
+    {
+      "firstName": "jen",
+      "age": "124",
+      "id": 2
+    }
+  ]
+}

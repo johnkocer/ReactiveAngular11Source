@@ -1,0 +1,45 @@
+<!-- LIST: {{store.contactList | json}} -->
+
+<form #contactForm="ngForm" (ngSubmit)="saveContact(contactForm)" style="background-color: rgb(243, 231, 241);">
+  <div class="form-group">
+    <label>First Name</label>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="First Name"
+      #firstName="ngModel"
+      name="firstName"
+      [(ngModel)]="contactData.firstName"
+      required
+    />
+    <div *ngIf="firstName.invalid && (firstName.dirty || firstName.touched)">
+      <div *ngIf="firstName.errors.required">
+        First Name is required.
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="form-group">
+    <label>Age</label>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Age"
+      #age="ngModel"
+      name="age"
+      [(ngModel)]="contactData.age"
+      required
+      [range]="[0, 200]"
+    />
+    <div *ngIf="age?.invalid && (age.dirty || age.touched)">
+      <div *ngIf="age.errors.required">
+        Age is required.
+      </div>
+      <div *ngIf="age.invalid">
+        Age must be between 0 and 200.
+      </div>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

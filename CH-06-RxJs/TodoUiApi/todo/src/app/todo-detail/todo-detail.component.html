@@ -1,0 +1,15 @@
+<h5 *ngIf="isShow()" class="todos" style="margin-left: 10px;color: rgb(42, 165, 42); ">Click a Todo Item to Edit</h5>
+<div *ngIf="!isShow()" class="editTodo bg-error">
+  <fieldset>
+    <legend>{{todo.name | uppercase}} Details</legend>
+    <div>
+      <span>id: </span>{{todo.id}}
+      <label>Name:
+        <input class="todos" [(ngModel)]="todo.name"  style="max-width: 210px;" placeholder="name" (keyup.enter)="updateItem(todo)">
+      </label>
+      <button (click)="updateItem(todo)" style="background-color: rgb(42, 165, 42);">
+        Update
+      </button>
+    </div>
+  </fieldset>
+</div>

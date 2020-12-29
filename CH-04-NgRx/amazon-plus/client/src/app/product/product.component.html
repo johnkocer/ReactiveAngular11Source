@@ -1,0 +1,20 @@
+<hr>
+<div style="text-align: center;">
+
+  <div class="">
+    <div class="">
+      <img [src]="product.image" [alt]="product.name" class="product-image img-fluid. " style="width: auto; height: 300px;" />
+    </div>
+    <button  class="bg-success" (click)="addToCart(product)" *ngIf="!inCart"> Add</button>
+    <button class="bg-danger" (click)="removeFromCart(product)" *ngIf="inCart" > Remove </button>
+  </div>
+
+  <div class="">
+    <p class="">{{ product.name }}</p>
+<a target="_blank" href=" https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=john+kocer" >{{product.name}}</a>
+    <p class="">${{ product.price }}</p>
+  </div>
+  <div class="">
+    <p>{{ product.description }}</p>
+  </div>
+</div>

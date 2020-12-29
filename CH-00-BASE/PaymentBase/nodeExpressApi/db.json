@@ -1,0 +1,131 @@
+{
+  "posts": [],
+  "user": {
+    "name": "typicode"
+  },
+  "todos": [
+    {
+      "completed": true,
+      "title": "Learn Angular",
+      "id": "a2b1d49d-1b2a-45b3-8d54-e0166721af67"
+    },
+    {
+      "completed": true,
+      "title": "Learn Firebase",
+      "id": "4f7f699e-d7d7-49a6-a2f6-24233e1533f2"
+    },
+    {
+      "completed": false,
+      "title": "Learn NgRx",
+      "id": "05d6295d-3318-4778-ac48-6cedb1596719"
+    },
+    {
+      "completed": false,
+      "title": "1 Learn NgRx",
+      "id": "15d6295d-3318-4778-ac48-6cedb1596719"
+    },
+    {
+      "completed": false,
+      "title": "2 Learn NgRx",
+      "id": "25d6295d-3318-4778-ac48-6cedb1596719"
+    },
+    {
+      "completed": false,
+      "title": "3 Learn NgRx",
+      "id": "35d6295d-3318-4778-ac48-6cedb1596719"
+    }
+  ],
+  "employees1": [
+    {
+      "id": "05d6295d-3318-4778-ac48-6cedb1596719",
+      "name": "Ms. Nice",
+      "gender": "Male",
+      "salary": 10000,
+      "departmentId": 1
+    },
+    {
+      "id": "15d6295d-3318-4778-ac48-6cedb1596719",
+      "name": "Mr. Nice",
+      "gender": "Female",
+      "salary": 5000,
+      "departmentId": 1
+    },
+    {
+      "id": "25d6295d-3318-4778-ac48-6cedb1596719",
+      "name": "Mr. Mike",
+      "gender": "Male",
+      "salary": 9000,
+      "departmentId": 1
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "fullName": "Jen Rich",
+      "zipCode": "84223",
+      "errorMessage": "OK",
+      "isSuccess": true
+    },
+    {
+      "id": 2,
+      "fullName": "John Smart",
+      "zipCode": "89223",
+      "errorMessage": "OK",
+      "isSuccess": true
+    }
+  ],
+  "products": [
+    {
+      "id": 100,
+      "price": 100,
+      "name": "Reqular Montly"
+    },
+    {
+      "id": 101,
+      "price": 150,
+      "name": "Silver Montly"
+    },
+    {
+      "id": 103,
+      "price": 150,
+      "name": "Gold Montly"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Ms. Nice",
+      "gender": "Male",
+      "salary": 10000,
+      "departmentId": 1
+    },
+    {
+      "id": 2,
+      "name": "Mr. Nice",
+      "gender": "Female",
+      "salary": 5000,
+      "departmentId": 1
+    },
+    {
+      "id": 3,
+      "name": "Narco",
+      "gender": "Male",
+      "salary": 8000,
+      "departmentId": 1
+    },
+    {
+      "id": 4,
+      "name": "Bombasto",
+      "gender": "Male",
+      "salary": 9000,
+      "departmentId": 1
+    },
+    {
+      "id": 5,
+      "name": "Celeritas",
+      "gender": "Male",
+      "salary": 10000,
+      "departmentId": 1
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contacts": [
+    {
+      "id": "175493f8-2822-49a5-9b10-88997152c7b1",
+      "firstName": "John",
+      "age": "31"
+    },
+    {
+      "id": "275493f8-2822-49a5-9b10-88997152c7b1",
+      "firstName": "jen",
+      "age": "12"
+    },
+    {
+      "id": "375493f8-2822-49a5-9b10-88997152c7b1",
+      "firstName": "tt",
+      "age": "5"
+    }
+  ],
+  "user": {}
+}

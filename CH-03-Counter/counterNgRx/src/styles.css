@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  background-color:rgb(235, 243, 239);
+  text-align:center;
+}
+.red{
+  background-color:rgb(240, 30, 48);
+}
+.green{
+  background-color:rgb(26, 163, 56);
+}
+.blue{
+  background-color:rgb(169, 160, 207);
+}
